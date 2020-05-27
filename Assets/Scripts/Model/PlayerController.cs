@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    private Text targetText;
+    public Text targetText;
 
     
         void OnCollisionStay(Collision collision)
@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
           
             Debug.Log("hit");
             //文章を画面上に表示する
-            this.targetText = this.GetComponent<Text>();
+           // this.targetText = this.GetComponent<Text>();
             this.targetText.text = "ChangeText";
     }
     
