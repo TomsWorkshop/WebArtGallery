@@ -8,11 +8,11 @@ using UnityEngine.UI;
 public class ArtDescription : MonoBehaviour
 {
     [SerializeField] private Text targetText;
-    private GameObject DescriptionPanel;
+    [SerializeField] private GameObject DescriptionPanel;
 
     private void Start()
     {
-        DescriptionPanel = GameObject.Find ("DescriptionBackground");
+        // DescriptionPanel = GameObject.Find ("DescriptionBackground");
     }
 
     //void OnCollisionStay(Collision collision)　　　　　　//物体に衝突している間(貫通できない) <= ダメ
