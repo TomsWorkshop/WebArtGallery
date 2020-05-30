@@ -10,7 +10,8 @@ public class description1 : MonoBehaviour
     public Text targetText;
 
     
-    void OnCollisionStay(Collision collision)　　　　　　//物体に衝突している間
+    //void OnCollisionStay(Collision collision)　　　　　　//物体に衝突している間(貫通できない)
+    void OnTriggerStay(Collider collision)                 //貫通できる
     {
           
             Debug.Log("hit");     　//consoleに表示
@@ -18,7 +19,8 @@ public class description1 : MonoBehaviour
             this.targetText.text = "ChangeText";　　　 //表示したい文章
     }
 
-    void OnCollisionExit(Collision collision)　　　　　//物体から離れたとき
+    //void OnCollisionExit(Collision collision)　　　　　//物体から離れたとき(貫通できない)
+    void OnTriggerExit(Collider collision)　　　　　　　　//貫通できる
     {
 
         this.targetText.text = " ";　　　　　　　　　　　//textに空白を入力
