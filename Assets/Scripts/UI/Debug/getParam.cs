@@ -34,4 +34,12 @@ public class getParam : MonoBehaviour
         GUI.Label(RPYRect, string.Format("RPY : Roll={0:F2}, Pitch={1:F2}, Yaw={2:F2}",
             m_gyro.attitude.eulerAngles.x, m_gyro.attitude.eulerAngles.y, m_gyro.attitude.eulerAngles.z));
     }
+
+    // public void getPermission()
+    // {
+    //     DeviceOrientationEvent.
+    // }
+    // window.addEventListener("deviceorientation", () => {
+    // // 処理
+    // });
 }
