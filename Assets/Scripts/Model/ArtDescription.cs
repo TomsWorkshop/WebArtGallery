@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class ArtDescription : MonoBehaviour
 {
-    [SerializedField] private Text targetText;
+    [SerializeField] private Text targetText;
     private GameObject DescriptionPanel;
 
     private void Start()
@@ -19,7 +19,7 @@ public class ArtDescription : MonoBehaviour
     void OnTriggerStay(Collider collision)                 //貫通できる
     {
         Debug.Log("Hit !");     　//consoleに表示
-        DescriptionPanel.enabled = true;
+        DescriptionPanel.SetActive(true);
         this.targetText.text = "ChangeText";　　　 //表示したい文章
     }
 
@@ -27,7 +27,7 @@ public class ArtDescription : MonoBehaviour
     void OnTriggerExit(Collider collision)　　　　　　　　//貫通できる
     {
         Debug.Log("Not Hit");     　//consoleに表示
-        // DescriptionPanel.enabled = false;
+        DescriptionPanel.SetActive(false);
         this.targetText.text = "";　　　　　　　　　　　//textに空白を入力
     }
 }
