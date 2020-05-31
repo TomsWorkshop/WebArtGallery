@@ -3872,7 +3872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  turnSpeed: 30
+  turnSpeed: 40
   MoveJoystick: {fileID: 251676295}
   TurnJoystick: {fileID: 2039621618}
 --- !u!136 &1978237302
