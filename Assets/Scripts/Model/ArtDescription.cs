@@ -1,21 +1,18 @@
-﻿using System.Collections;
-using System.Globalization;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-
 
 public class ArtDescription : MonoBehaviour
 {
     // [SerializeField] private Text targetText;
     [SerializeField] private GameObject DescriptionPanel;
+    [TextArea(3,10)] [SerializeField] private string Description;
 
     //void OnCollisionStay(Collision collision)　　　　　　//物体に衝突している間(貫通できない) <= ダメ
     void OnTriggerStay(Collider collision)                 //貫通できる
     {
         // Debug.Log("Hit !");     　//consoleに表示
         DescriptionPanel.SetActive(true);
-        DescriptionPanel.GetComponentInChildren<Text>().text = "ChangeText";　　　 //表示したい文章
+        DescriptionPanel.GetComponentInChildren<Text>().text = Description;　　　 //表示したい文章
     }
 
     //void OnCollisionExit(Collision collision)　　　　　//物体から離れたとき(貫通できない)     <= ダメ
