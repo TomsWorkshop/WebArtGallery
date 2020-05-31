@@ -39,12 +39,12 @@ public class TweetButton : MonoBehaviour
         } );
     }
 
-    // マウスの右クリックでツイート画面を開く場合
-    private void Update ()
-    {
-        if ( Input.GetMouseButtonDown ( 1 ) )
-        {
-            Tweeting ();
-        }
-    }
+    // // マウスの右クリックでツイート画面を開く場合
+    // private void Update ()
+    // {
+    //     if ( Input.GetMouseButtonDown ( 1 ) )
+    //     {
+    //         Tweeting ();
+    //     }
+    // }
 }
