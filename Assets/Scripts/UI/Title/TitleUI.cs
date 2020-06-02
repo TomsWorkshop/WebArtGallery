@@ -1,19 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TitleUI : MonoBehaviour
 {
-    public void PlayAsHost() 
+    public void VisitGallery() 
     {
-        // PlayerSetting.isOwner = true;
-        // SceneManager.LoadScene("PlayerInfo");
+        SceneManager.LoadScene("main");
     }
 
-    public void PlayAsVisitor()
+    public void GoTutorial()
     {
-        // PlayerSetting.isOwner = false;
-        // SceneManager.LoadScene("PlayerInfo");
+        SceneManager.LoadScene("Tutorial");
     }
 }
