@@ -53,14 +53,14 @@ public class DoorController : MonoBehaviour
 
     private void DoorRotate(float targetAngle)
     {
-        float speed = (targetAngle - (RightJoint.transform.localEulerAngles.y - initialRightJointRotate.y)) * 0.01f;
+        float speed = (targetAngle - (RightJoint.transform.localEulerAngles.y - initialRightJointRotate.y)) * 0.01f;    // P制御
         RightJoint.transform.Rotate(Vector3.up * speed);
         LeftJoint.transform.Rotate(Vector3.down * speed);
     }
 
     private void DoorSlide(float targetPosition)
     {
-        float speed = (targetPosition + (RightJoint.transform.localPosition.x - initialRightJointPosition.x)) * 0.01f;
+        float speed = (targetPosition + (RightJoint.transform.localPosition.x - initialRightJointPosition.x)) * 0.01f;  // P制御
         RightJoint.transform.Translate(Vector3.left * speed);
         LeftJoint.transform.Translate(Vector3.right * speed);
     }
