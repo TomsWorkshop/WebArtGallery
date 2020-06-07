@@ -16,6 +16,9 @@ public class DoorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RightDoor.transform.Rotate(Vector3.up * Time.deltaTime*200);
+        // RightDoor.transform.Rotate(Vector3.up * Time.deltaTime*200);
+        RightDoor.transform.Translate(Vector3.right *0.5f);
+        RightDoor.transform.Rotate(Vector3.up * 10.0f);
+        // Debug.Log(new Vector3(1,2,3));
     }
 }
