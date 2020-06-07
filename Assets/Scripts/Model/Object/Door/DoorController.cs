@@ -6,7 +6,9 @@ public class DoorController : MonoBehaviour
     public enum DoorType
     {
         NormalDoor,
-        SlideDoor
+        SlideDoor,
+        HalfNormalDoor,
+        HalfSlideDoor
     }
     [SerializeField] DoorType doorType;
 
@@ -46,6 +48,16 @@ public class DoorController : MonoBehaviour
                 if (isSensorOn) DoorSlide(SlideRange);      // 引数は目標移動量
                 if (!isSensorOn) DoorSlide(0);
                 return;
+            case DoorType.HalfNormalDoor:
+                if (isSensorOn) HalfDoorRotate(RotateRange);      // 引数は目標移動量
+                if (!isSensorOn) HalfDoorRotate(0);
+                LeftJoint.SetActive(false);
+                return;
+            case DoorType.HalfSlideDoor:
+                if (isSensorOn) HalfDoorSlide(SlideRange);      // 引数は目標移動量
+                if (!isSensorOn) HalfDoorSlide(0);
+                LeftJoint.SetActive(false);
+                return;
             default:
                 return;
         }
@@ -64,4 +76,20 @@ public class DoorController : MonoBehaviour
         RightJoint.transform.Translate(Vector3.left * speed);
         LeftJoint.transform.Translate(Vector3.right * speed);
     }
+
+    private void HalfDoorRotate(float targetAngle)
+    {
+        float speed = (targetAngle - (RightJoint.transform.localEulerAngles.y - initialRightJointRotate.y)) * 0.01f;
+        RightJoint.transform.Rotate(Vector3.up * speed);
+        // LeftJoint.transform.Rotate(Vector3.down * speed);
+    }
+
+    private void HalfDoorSlide(float targetPosition)
+    {
+        float speed = (targetPosition + (RightJoint.transform.localPosition.x - initialRightJointPosition.x)) * 0.01f;
+        RightJoint.transform.Translate(Vector3.left * speed);
+        // LeftJoint.transform.Translate(Vector3.right * speed);
+    }
+
+
 }

@@ -520,7 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3b37fe49bbbd9d4098cfcae736ad4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorType: 1
+  doorType: 2
   RightJoint: {fileID: 1513418293}
   LeftJoint: {fileID: 1898796597}
   RotateRange: 90
