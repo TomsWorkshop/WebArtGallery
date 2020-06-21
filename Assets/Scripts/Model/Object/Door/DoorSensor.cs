@@ -2,15 +2,15 @@
 
 public class DoorSensor : MonoBehaviour
 {
-    [SerializeField] private GameObject controller;
+    public bool isOpen = false;
 
     void OnTriggerStay(Collider collision)
     {
-        controller.GetComponent<DoorController>().isSensorOn = true;
+        isOpen = true;
     }
 
     private void OnTriggerExit(Collider collision)
     {
-        controller.GetComponent<DoorController>().isSensorOn = false;
+        isOpen = false;
     }
 }

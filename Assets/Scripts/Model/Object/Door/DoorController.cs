@@ -10,26 +10,19 @@ public class DoorController : MonoBehaviour
     }
     [SerializeField] DoorType doorType;
 
-    [SerializeField] private GameObject RightJoint;
-    [SerializeField] private GameObject LeftJoint;
-    [SerializeField] private float RotateRange;
-    [SerializeField] private float SlideRange;
+    [SerializeField] private GameObject sensor;
+    [SerializeField] private float RotateTarget;
+    [SerializeField] private float SlideTarget;
 
-    public bool isSensorOn;     // Sensorのトリガが差動したら切り替わる（DoorSensor.csから変更される）
-    
     // 初期値（正規化用）
-    private Vector3 initialRightJointPosition;
-    private Vector3 initialRightJointRotate;
-    private Vector3 initialLeftJointPosition;
-    private Vector3 initialLeftJointRotate;
+    private Vector3 initialJointPosition;
+    private Vector3 initialJointRotate;
 
     private void Start()
     {
-        isSensorOn = false;
-        initialRightJointPosition   = RightJoint.gameObject.transform.localPosition;
-        initialRightJointRotate     = RightJoint.gameObject.transform.localEulerAngles;
-        initialLeftJointPosition    = LeftJoint.gameObject.transform.localPosition;
-        initialLeftJointRotate      = LeftJoint.gameObject.transform.localEulerAngles;
+        sensor.GetComponent<DoorSensor>().isOpen = false;
+        initialJointPosition   = this.gameObject.transform.localPosition;
+        initialJointRotate     = this.gameObject.transform.localEulerAngles;
     }
 
     void Update()
@@ -39,12 +32,12 @@ public class DoorController : MonoBehaviour
             // switchの分岐に文字列は使えない。
             // enumのリストを実装しておくとインデックスで分岐ができる。
             case DoorType.NormalDoor:
-                if (isSensorOn)  DoorRotate(RotateRange);    // 引数は目標角
-                if (!isSensorOn) DoorRotate(0);
+                if (sensor.GetComponent<DoorSensor>().isOpen)  DoorRotate(RotateTarget);    // 引数は目標角
+                if (!sensor.GetComponent<DoorSensor>().isOpen) DoorRotate(0);
                 return;
             case DoorType.SlideDoor:
-                if (isSensorOn) DoorSlide(SlideRange);      // 引数は目標移動量
-                if (!isSensorOn) DoorSlide(0);
+                if (sensor.GetComponent<DoorSensor>().isOpen) DoorSlide(SlideTarget);      // 引数は目標移動量
+                if (!sensor.GetComponent<DoorSensor>().isOpen) DoorSlide(0);
                 return;
             default:
                 return;
@@ -53,15 +46,15 @@ public class DoorController : MonoBehaviour
 
     private void DoorRotate(float targetAngle)
     {
-        float speed = (targetAngle - (RightJoint.transform.localEulerAngles.y - initialRightJointRotate.y)) * 0.01f;    // P制御
-        RightJoint.transform.Rotate(Vector3.up * speed);
-        LeftJoint.transform.Rotate(Vector3.down * speed);
+        float nowAngle = this.transform.localEulerAngles.y;
+        if (nowAngle > 180) nowAngle -= 360;
+        float speed = (targetAngle - (nowAngle - initialJointRotate.y)) * 0.01f;    // P制御
+        this.transform.Rotate(Vector3.up * speed);
     }
 
     private void DoorSlide(float targetPosition)
     {
-        float speed = (targetPosition + (RightJoint.transform.localPosition.x - initialRightJointPosition.x)) * 0.01f;  // P制御
-        RightJoint.transform.Translate(Vector3.left * speed);
-        LeftJoint.transform.Translate(Vector3.right * speed);
+        float speed = (targetPosition + (this.transform.localPosition.x - initialJointPosition.x)) * 0.01f;  // P制御
+        this.transform.Translate(Vector3.left * speed);
     }
 }
