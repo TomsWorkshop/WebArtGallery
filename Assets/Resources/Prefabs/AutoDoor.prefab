@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364763895572187423}
   - component: {fileID: 5098021907770340627}
-  - component: {fileID: 2242901865576132109}
+  - component: {fileID: 8993151920396636137}
   m_Layer: 0
   m_Name: LeftSensor
   m_TagString: Untagged
@@ -45,7 +45,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2242901865576132109
+--- !u!114 &8993151920396636137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,10 +54,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1454022324010371149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065d1c14b0712ca44bc83f19d353cb60, type: 3}
+  m_Script: {fileID: 11500000, guid: 6158f632366482e4f89d23daca031980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 3797394510197179284}
+  isOpen: 0
 --- !u!1 &3797394510197179284
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,13 +67,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3797394510197179287}
-  - component: {fileID: 2338215998868386158}
+  - component: {fileID: 4988078737263102265}
   m_Layer: 0
   m_Name: LeftJoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3797394510197179287
 Transform:
@@ -90,7 +90,7 @@ Transform:
   m_Father: {fileID: 3797394511723222491}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2338215998868386158
+--- !u!114 &4988078737263102265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,14 +99,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3797394510197179284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9643f8bcaf8683342ad36c16ea7938cf, type: 3}
+  m_Script: {fileID: 11500000, guid: a3b37fe49bbbd9d4098cfcae736ad4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorType: 1
-  LeftJoint: {fileID: 3797394510197179284}
-  RotateRange: 90
-  SlideRange: 1
-  isSensorOn: 0
+  doorType: 0
+  sensor: {fileID: 1454022324010371149}
+  RotateTarget: -90
+  SlideTarget: -1
 --- !u!1 &3797394510918187924
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3797394510918187927}
-  - component: {fileID: 3486709887203237307}
+  - component: {fileID: 2392318135428946465}
   m_Layer: 0
   m_Name: RightJoint
   m_TagString: Untagged
@@ -139,7 +138,7 @@ Transform:
   m_Father: {fileID: 3797394511723222491}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3486709887203237307
+--- !u!114 &2392318135428946465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,14 +147,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3797394510918187924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a1f2f2283c7bf546b99804b02e7a595, type: 3}
+  m_Script: {fileID: 11500000, guid: a3b37fe49bbbd9d4098cfcae736ad4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorType: 1
-  RightJoint: {fileID: 3797394510918187924}
-  RotateRange: 90
-  SlideRange: 1
-  isSensorOn: 0
+  doorType: 0
+  sensor: {fileID: 4702287513020732838}
+  RotateTarget: 90
+  SlideTarget: 1
 --- !u!1 &3797394511362717014
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9066320283968645547}
   - component: {fileID: 9174957495884219019}
-  - component: {fileID: 2261667642693916435}
+  - component: {fileID: 6282139337198142730}
   m_Layer: 0
   m_Name: RightSensor
   m_TagString: Untagged
@@ -421,7 +419,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2261667642693916435
+--- !u!114 &6282139337198142730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -430,7 +428,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4702287513020732838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca533488486a3a44781d6042626dd5e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 6158f632366482e4f89d23daca031980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 3797394510918187924}
+  isOpen: 0
