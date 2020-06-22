@@ -2729,6 +2729,11 @@ PrefabInstance:
       propertyPath: TurnJoystick
       value: 
       objectReference: {fileID: 2039621618}
+    - target: {fileID: 6642591593945286168, guid: 15a08c2aa4538a24f8446a1f66f3aba2,
+        type: 3}
+      propertyPath: turnSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6642591593945286169, guid: 15a08c2aa4538a24f8446a1f66f3aba2,
         type: 3}
       propertyPath: m_LocalPosition.x
