@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 57c78c9df87270e4587dd6df78ee79f4
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC European Hackberry bark
+    second: {fileID: 6586111978744121714, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC European Hackberry branch
+    second: {fileID: 3393574968830487773, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC European Hackberry leaf
+    second: {fileID: 4806415680059079058, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC advert vertical 2 by 1
+    second: {fileID: -6778828039535979778, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC blue mailbox
+    second: {fileID: -8454293567476338105, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC brick pavement
+    second: {fileID: 9178148453160190918, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC brick pavement 3
+    second: {fileID: 8628338769692588647, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC brick pavement 4
+    second: {fileID: -1258643831981009645, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC bricks 1
+    second: {fileID: 8262524322019381651, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC bricks 2
+    second: {fileID: 201858017339783625, guid: 57c78c9df87270e4587dd6df78ee79f4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC bus stop paper
+    second: {fileID: 8252861625987138186, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC bus stop paper advert
+    second: {fileID: -2575454891254091960, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC bus stop random street name
+    second: {fileID: 4877812988752133586, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC concrete 1
+    second: {fileID: 612694915488635773, guid: 57c78c9df87270e4587dd6df78ee79f4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC door1
+    second: {fileID: -8650602972330380592, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC fire hydrant
+    second: {fileID: 5541122324255320217, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC fire hydrant eroded
+    second: {fileID: -1750270447273156807, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC glass 1
+    second: {fileID: 4890296123241459613, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC glass clean
+    second: {fileID: -6920910978707626472, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC glass white
+    second: {fileID: -3389771526601062204, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC glowing plastic white off
+    second: {fileID: -3408126147015052041, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC grass
+    second: {fileID: -8647747969721514614, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC grass leaves
+    second: {fileID: 3620081025954634277, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC metal bare 1
+    second: {fileID: 3351385890455286150, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC metal bare 61
+    second: {fileID: -1092462803665912731, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - bud
+    second: {fileID: -6993421240314353584, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - calyx leaf
+    second: {fileID: 6221588012642806696, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - leaf 1
+    second: {fileID: 7548290234621112321, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - leaf 2
+    second: {fileID: 2649240381003558464, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - leaf 3
+    second: {fileID: -2459347300979304464, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - petal 1
+    second: {fileID: 9180517309113353384, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - petal 2
+    second: {fileID: 522175206324683424, guid: 57c78c9df87270e4587dd6df78ee79f4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - petal 3
+    second: {fileID: -7649805589348856571, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plant - geranium - stem
+    second: {fileID: -817397067029438571, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plastic gray
+    second: {fileID: 2134891512503273576, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plywood 1
+    second: {fileID: 175332501415099364, guid: 57c78c9df87270e4587dd6df78ee79f4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC plywood 2 dark
+    second: {fileID: -6303433270968375642, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC road asphalt 1
+    second: {fileID: -755627100544982704, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC road edge
+    second: {fileID: 3259102175549640735, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC road white paint
+    second: {fileID: -2016933590105733549, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC road yellow paint
+    second: {fileID: 3207219858170904296, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC roof 1
+    second: {fileID: 4194191576682181043, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC roof 2
+    second: {fileID: 1918579019585936052, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC sidewalk 1
+    second: {fileID: -2063684344360193262, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC sidewalk 1 color var
+    second: {fileID: -3970723836188632916, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC street light lamp off
+    second: {fileID: -4874162766562353344, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC street light pole metal
+    second: {fileID: -7319586020528582635, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SC yellow paint
+    second: {fileID: 3207219858170904296, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: billboard 2
+    second: {fileID: -6469742010478414900, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 333359131b2343f418e5cb970ec233c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete 1 b3
+    second: {fileID: -2299918882219147370, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grid 1
+    second: {fileID: -3336483257247843763, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 1 r3 aluminium
+    second: {fileID: 107976577678379866, guid: 57c78c9df87270e4587dd6df78ee79f4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 1 r4 black
+    second: {fileID: 60136783111778514, guid: 57c78c9df87270e4587dd6df78ee79f4, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal 1 r4 white
+    second: {fileID: 2289364506840791971, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal plates 1 r1 b3
+    second: {fileID: -3554428117221354089, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sidewalk 1 b4
+    second: {fileID: -2823777846092584748, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sidewalk 1 b5
+    second: {fileID: -6196441002263051453, guid: 57c78c9df87270e4587dd6df78ee79f4,
+      type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
