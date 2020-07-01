@@ -72,7 +72,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 1
+    m_BakeBackend: 2
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 512
     m_PVRSampleCount: 512
@@ -924,6 +924,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3368569458498932349, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3368569458777334733, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745966752405594695, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745966753012730598, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6745966753440115780, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -983,6 +1003,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AutoDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745966753440115781, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745966753608183876, guid: 3fbbe3c954e981d40b5298ac596bbf9d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fbbe3c954e981d40b5298ac596bbf9d, type: 3}
