@@ -7,7 +7,6 @@ public class DoorSensor : MonoBehaviour
     void OnTriggerStay(Collider collision)
     {
         isOpen = true;
-        Debug.Log("hit");
     }
 
     private void OnTriggerExit(Collider collision)
