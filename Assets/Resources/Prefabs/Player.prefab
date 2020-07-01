@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6642591592952937551}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.00964458, y: 0, z: 0, w: 0.9999535}
   m_LocalPosition: {x: 0, y: 1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -109,8 +109,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6642591593945286174}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 2}
+  m_LocalRotation: {x: 0, y: 0.0091824345, z: 0, w: 0.99995786}
+  m_LocalPosition: {x: 2.1388693, y: 0, z: 2.3124528}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6642591592952937550}
@@ -126,11 +126,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6642591593945286174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb8c555cd9b1a0140b2bb575aa624d91, type: 3}
+  m_Script: {fileID: 11500000, guid: cf4b61acb8a3e154d82cd1ff223d9158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  turnSpeed: 40
+  turnSpeed: 30
   MoveJoystick: {fileID: 0}
   TurnJoystick: {fileID: 0}
 --- !u!54 &6642591593945286170
