@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 11311bbb498f41940b7e87f4ae249789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: WoodFloor
     second: {fileID: 2100000, guid: 159021c8f13a6e24da7ca77dd091402d, type: 2}
   materials:
