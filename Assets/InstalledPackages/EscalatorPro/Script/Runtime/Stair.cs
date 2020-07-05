@@ -60,7 +60,7 @@ namespace EscalatorPro
             else
             {
                 if (nextDestination == EscalatorPro.Destination.ToSlopeEndPointReturn ||
-                nextDestination == EscalatorPro.Destination.ToSlopeEndPointReturn)
+                nextDestination == EscalatorPro.Destination.ToSlopeStartPointReturn)  //ToSlopeEndPointReturn
                 {
                     if (escalator.disableMesh && mesh)
                         mesh.enabled = false;

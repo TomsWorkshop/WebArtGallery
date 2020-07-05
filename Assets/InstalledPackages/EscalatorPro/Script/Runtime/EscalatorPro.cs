@@ -9,7 +9,7 @@ namespace EscalatorPro
         [Header("Config")]
         public GameObject stairPrefab;
         public float stairOffsetX = -0.1f, stairOffsetY = -0.1f;
-        public int step = 3, stepBefore = 1, stepAfter = 1;
+        public int step = 8, stepBefore = 2, stepAfter = 2;  //3,1,1
 
         [Header("Animation"), Range(0, 1)]
         public float speed = 0.15f;
